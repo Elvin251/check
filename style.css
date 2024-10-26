@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(255,212,162);
+    background: linear-gradient(90deg, rgba(255,212,162,1) 35%, rgba(254,1,89,1) 100%);
+}
+header{
+    display: flex;
+   
+}
+ul{
+    margin-top: 35px;
+    list-style: none;
+    display: flex;
+    margin-left: 50px;
+    justify-content: space-between;
+    
+   
+}
+h1{
+    display: inline;
+}
+li{
+    margin-left: 50px;
+    font-size: 20px;
+}
+.bir{
+    margin-left: 150px;
+}
+.container{
+    margin: 20px;
+    padding: 10px;
+   border-radius:20px ;
+   border: 10px solid black;
+    overflow: auto;
+    height: 95vh;
+    margin-top: 12px;
+    overflow: hidden;
+    position: relative;
+    background-color: white;
+    margin-top: 20px;
+
+-webkit-box-shadow: 13px 13px 12px 3px rgba(19, 19, 19, 0.54);
+-moz-box-shadow: 13px 13px 12px 3px rgba(19, 19, 19, 0.54);
+box-shadow: 13px 13px 12px 3px  rgb(0, 0, 0,0.57);
+}
+.left{
+    margin-left: 100px;
+    font-size: 27px;
+    float: left;
+    display: inline;
+    margin-top: 0px;
+   
+}
+.left-left img{
+ 
+
+   height: 110px;
+}
+.left-left{
+    float: left;
+
+ 
+    overflow: auto;
+    margin-top: 170px;
+ 
+    display: inline;
+}
+.left-right{
+  margin-left: 50px;
+  
+  margin-top: 50px;
+}
+.left-right button{
+    background-color: rgb(255, 0, 157);
+    border: none;
+    border-radius: 10px;
+   padding: 10px;
+}
+.left-right p{
+    color: rgb(0, 0, 0,0.3);
+   
+}
+.left-right h1{
+    font-size: 40px;
+}
+.right{
+    float: right;
+    width: 45vw;
+    height: 30vw;
+    background-color:rgba(236, 54, 141, 1);
+    position: relative;
+    border-radius: 40px;
+    margin-right: -100px;
+
+}
+.right .img{
+width: 900px;
+height: 700px;
+position: absolute;
+left: -440px;
+top: -150px;
+}
+.right img{
+    position: absolute;
+    color: white;
+}
+.img1{
+    left: 290px;
+    top: 20px;
+}
+.img2{
+    top: 150px;
+    right: 120px;
+}
+.img3{
+    bottom: 20px;
+    left:300px ;
+}
+.imgyazi{
+    position: absolute;
+    bottom: 100px;
+    left: 650px;
+}
+.imgreng{
+    position: absolute;
+    bottom: 100px;
+    left: 150px;
+}
+.line{
+    position: absolute;
+    bottom:20px ;
+    right: 400px;
+}
+.ins{
+    position: absolute;
+    right: 50px;
+    bottom: 20px;
+}
